@@ -2,7 +2,7 @@
 export default ()=> {
 
   return (
-    <div className="flex flex-1 bg-orange-600">
+    <div className="">
       Main Content
     </div>
   );
