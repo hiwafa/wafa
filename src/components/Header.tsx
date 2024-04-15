@@ -27,8 +27,10 @@ export default ()=> {
 
     return (
       <div className="bg-indigo-300 flex justify-between h-16 ">
-       <section className="ml-8">logo</section>
-       <nav ref={mobileMenuRef} className="absolute bg-blue-500 w-full h-48 flex flex-col items-start justify-evenly text-white space-x-10">
+       <section className=" content-center ml-10">
+        <Image src="/logo.png" alt="logo" width={50} height={50} className="w-12 h-12 object-contain " />
+       </section>
+       <nav ref={mobileMenuRef} className="absolute bg-blue-500 w-full h-48  flex flex-col items-start justify-evenly text-white space-x-10">
         <a className="absolute right-4 top-4" onClick={handleMobileMenu}>
           <IoClose size={25} />
         </a>
