@@ -2,7 +2,7 @@
 export default ()=> {
 
     return (
-      <div className="">
+      <div className="bg-black text-white">
         footer
       </div>
     );

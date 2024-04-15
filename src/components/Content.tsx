@@ -2,7 +2,7 @@
 export default ()=> {
 
   return (
-    <div className="">
+    <div className="bg-orange-300">
       Main Content
     </div>
   );
