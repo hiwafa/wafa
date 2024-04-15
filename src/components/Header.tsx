@@ -26,11 +26,11 @@ export default ()=> {
   }
 
     return (
-      <div className="bg-indigo-300 flex justify-between">
-       <section>logo</section>
-       <nav ref={mobileMenuRef} className="absolute bg-blue-500 w-full h-48 flex flex-col items-start justify-evenly text-white pl-8">
+      <div className="bg-indigo-300 flex justify-between h-16 ">
+       <section className="ml-8">logo</section>
+       <nav ref={mobileMenuRef} className="absolute bg-blue-500 w-full h-48 flex flex-col items-start justify-evenly text-white space-x-10">
         <a className="absolute right-4 top-4" onClick={handleMobileMenu}>
-          <IoIosMenu size={25} />
+          <IoClose size={25} />
         </a>
         <a href="">Home</a>
         <a href="">About</a>
@@ -38,7 +38,7 @@ export default ()=> {
         <a href="">Contact</a>
         <a href="">Profile</a>
        </nav>
-       <div>
+       <div className="mt-4 mr-4">
         <a onClick={handleOpenMobileMenu}>
           <IoIosMenu size={25} />
         </a>
