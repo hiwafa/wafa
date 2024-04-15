@@ -15,6 +15,15 @@ const config: Config = {
       },
       screens: {
         "sm": "440px"
+      },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "translateY(25%)" },
+          "50%": { transform: "translateY(0)" }
+        }
+      },
+      animation: {
+        wiggle: "wiggle 200ms ease-in-out"
       }
     },
   },
