@@ -7,13 +7,13 @@ export default () => {
     return (
         <div className="m-5">
 
-           <section className="float-left mr-3 bg-emerald-400 w-full flex flex-col items-center sm:w-5/12">
+           <section className="float-left mr-3 shadow-md w-full flex flex-col items-center sm:w-72 min-w-72 rounded-md mb-5">
             <Image className="rounded-md self-center " src="/profileImg.jpeg" width={150} height={150} alt="Profile Image"/>
             <div className="mt-2">
                 <p className="font-serif font-bold mb-2">Muhammad Wafa</p>
-                <div className="w-full flex items-center gap-4">
+                <div className="w-full flex items-center gap-4 text-wrap">
                     <MdMarkEmailRead />
-                    <p className="font-mono font-bold mb-2">muhammadwfa@gmail.com</p>
+                    <p className="font-mono font-bold mb-2 ">muhammadwfa@gmail.com</p>
                 </div>
                 <div className="w-full flex items-center gap-4">
                     <FaPhoneSquareAlt />
