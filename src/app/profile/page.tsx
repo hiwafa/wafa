@@ -5,7 +5,7 @@ export default () => {
     return (
         <div className="m-5">
 
-           <section className="float-left mr-3">
+           <section className="float-left mr-3 bg-emerald-400 w-full flex flex-1 justify-center">
             <Image className="rounded-md" src="/profileImg.jpeg" width={150} height={150} alt="Profile Image"/>
            </section>
 
