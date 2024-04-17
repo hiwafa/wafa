@@ -30,11 +30,11 @@ export default () => {
 
   return (
     <div className="bg-indigo-300 flex justify-between h-16 ">
-      <section className=" content-center ml-7">
+      <section className=" content-center md:ml-10 ml-5">
         <Image src="/logo.png" alt="logo" width={50} height={50} className="w-12 h-12 object-contain " />
       </section>
 
-      <nav className={`hidden sm:flex gap-4 items-center`}>
+      <nav className={`hidden sm:flex gap-3 items-center`}>
         <Link href="/">Home</Link>
         <Link href="/about">About Us</Link>
         <Link href="/services">Services</Link>
