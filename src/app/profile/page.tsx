@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { MdMarkEmailRead, MdLocationPin } from "react-icons/md";
-import { FaPhoneSquareAlt } from "react-icons/fa";
-import { RiUserLocationFill } from "react-icons/ri";
+import { FaPhoneSquareAlt, FaJava, FaReact, FaNodeJs } from "react-icons/fa";
+import { RiUserLocationFill, RiJavascriptLine } from "react-icons/ri";
+import { SiRedux } from "react-icons/si";
 
 export default () => {
 
@@ -10,7 +11,7 @@ export default () => {
 
            <section className="float-left mr-3 shadow-md w-full flex flex-col items-center sm:w-72 min-w-72 rounded-md mb-5">
             <Image className="rounded-md self-center " src="/profileImg.jpeg" width={150} height={150} alt="Profile Image"/>
-            <div className="mt-2">
+            <div className="mt-5">
                 <p className="font-mono font-bold mb-2 uppercase">Kontact</p>
                 <div className="w-full flex items-center gap-4 text-wrap">
                     <MdMarkEmailRead />
@@ -26,12 +27,35 @@ export default () => {
                     <p className="font-mono mb-2 text-sm">94444 Schweinfurt</p>
                 </div>
             </div>
+            <div className="mt-5 space-y-2 self-center">
+                <p className="font-mono font-bold mb-2 uppercase">Skills</p>
+                <div className="w-full flex items-center gap-4">
+                    <FaJava />
+                    <p className="font-mono text-sm self-end">Java</p>
+                </div>
+                <div className="w-full flex items-center gap-4">
+                    <RiJavascriptLine />
+                    <p className="font-mono text-sm self-end">Javascript</p>
+                </div>
+                <div className="w-full flex items-center gap-4">
+                    <FaReact />
+                    <p className="font-mono text-sm self-end">ReactJS</p>
+                </div>
+                <div className="w-full flex items-center gap-4">
+                    <SiRedux />
+                    <p className="font-mono text-sm self-end">Redux</p>
+                </div>
+                <div className="w-full flex items-center gap-4">
+                    <FaNodeJs />
+                    <p className="font-mono text-sm self-end">Nodejs</p>
+                </div>
+            </div>
            </section>
 
            <div className="mt-5">
                 <div className="inline-flex sm:block">
                     <span className="w-1 bg-emerald-500 h-auto mr-2" />
-                    <div className=" sm:bg-green-200 rounded">
+                    <div className=" sm:bg-green-100 rounded ">
                         <p className="font-mono font-bold mb-2 text-xl break-break">Muhammad Wafa wafa wafa</p>
                         <p className="font-bold mb-2 text-emerald-500 break-break">Software Developer</p>
                     </div>
