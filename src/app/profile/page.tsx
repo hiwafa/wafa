@@ -104,7 +104,45 @@ diesem Bereich. Dennoch zeichne ich mich durch Fleiß, Engagement, Flexibilität
                     </p>
                 </div>
 
-                
+                <div className="flex flex-col mt-5 gap-2">
+                    <div className="inline-flex justify-between flex-wrap">
+                        <p className="mr-5 text-emerald-500">Dozent für Programmiersprachen</p>
+                        <p className="font-light">September 2016 - April 2018</p>
+                    </div>
+                    <p className="font-medium">Balkh und Avicenna University - <span className="font-bold">Mazar-e-sharif</span></p>
+                    <p className="font-thin">
+                    Ich war als Dozent für Programmiersprachen und Datenbanken an der Fakultät für Informatik tätig.
+                    </p>
+                </div>
+
+            </div>
+
+            <div className="mt-10">
+                <div className=" overflow-auto border-l-2 border-emerald-500 pl-2">
+                    <p className="font-mono font-bold mb-2 text-xl">Educations</p>
+                </div>
+
+                <div className="flex flex-col mt-2 gap-2">
+                    <div className="inline-flex justify-between flex-wrap">
+                        <p className="mr-5 text-emerald-500">Sprachkurs für den Beruf</p>
+                        <p className="font-light">2022 - 2023</p>
+                    </div>
+                    <p className="font-medium">BFZ und VHS bis zum B2-Niveau - <span className="font-bold">Schweinfurt</span></p>
+                    <p className="font-thin">
+                    Neben meiner Programmiertätigkeit habe ich 2 Jahre lang Deutsch gelernt.
+                    </p>
+                </div>
+
+                <div className="flex flex-col mt-5 gap-2">
+                    <div className="inline-flex justify-between flex-wrap">
+                        <p className="mr-5 text-emerald-500">Bachelor</p>
+                        <p className="font-light">2013 - 2016</p>
+                    </div>
+                    <p className="font-medium">Computer Science - <span className="font-bold">Balkh University</span></p>
+                    <p className="font-thin">
+                    Informatik, Mathematik mit Schwerpunkt Software Engineering
+                    </p>
+                </div>
 
             </div>
 
