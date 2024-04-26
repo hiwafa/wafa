@@ -1,3 +1,4 @@
+import { SlBubble } from "react-icons/sl";
 
 export default () => {
 
@@ -15,7 +16,7 @@ export default () => {
           Get access to compact lessons from the experts and connect with a community of native speakers to help you master words faster.
         </p>
 
-        <button className="mt-2 self-center border-none bg-emerald-400 rounded-xl p-2 ">Learn for free</button>
+        <button className="mt-2 self-center border-none bg-emerald-400 rounded-xl p-2 shadow-sm">Learn for free</button>
 
       </div>
 
@@ -24,7 +25,9 @@ export default () => {
 
 
 
-      <div className="w-56 h-48 bg-orange-200 flex-grow"></div>
+      <div className="w-56 h-48 bg-orange-200 flex-grow">
+      <SlBubble size={200} />
+      </div>
       <div className="w-56 h-48 bg-orange-200 flex-grow"></div>
       <div className="w-56 h-48 bg-orange-200 flex-grow"></div>
       <div className="w-56 h-48 bg-orange-200 flex-grow"></div>
