@@ -1,12 +1,13 @@
+import Image from "next/image";
 import { SlBubble } from "react-icons/sl";
 
 export default () => {
 
   return (
-    <div className="border-2 border-emerald-200 m-10 flex flex-row gap-1 flex-wrap items-start content-start">
+    <div className=" m-10 flex flex-row gap-1 flex-wrap items-start content-start">
 
 
-      <div className="w-96 h-72 bg-orange-500 flex flex-col flex-grow text-white font-mono overflow-y-auto">
+      <div className="w-96 h-72 flex flex-col flex-grow text-white font-mono overflow-y-auto">
 
         <p className="font-bold text-4xl">
           New language, new opportunities, new you
@@ -25,14 +26,16 @@ export default () => {
 
 
 
-      <div className="w-56 h-48 bg-orange-200 flex-grow">
-      <SlBubble size={200} />
+      <div className="w-56 min-h-48  flex-grow">
+      <Image src="/learneverywhere.png" width={300} height={200} alt="language show" className="w-auto h-auto " />
       </div>
-      <div className="w-56 h-48 bg-orange-200 flex-grow"></div>
-      <div className="w-56 h-48 bg-orange-200 flex-grow"></div>
-      <div className="w-56 h-48 bg-orange-200 flex-grow"></div>
-      <div className="w-56 h-48 bg-orange-200 flex-grow"></div>
-      <div className="w-56 h-48 bg-orange-200 flex-grow"></div>
+      <div className="w-56 min-h-48 flex-grow">
+        <Image src="/learnboy1.png" width={300} height={200} alt="language show" className="w-auto h-auto" />
+      </div>
+      <div className="w-56 min-h-48 bg-orange-200 flex-grow"></div>
+      <div className="w-56 min-h-48 bg-orange-200 flex-grow"></div>
+      <div className="w-56 min-h-48 bg-orange-200 flex-grow"></div>
+      <div className="w-56 min-h-48 bg-orange-200 flex-grow"></div>
 
     </div>
   );
