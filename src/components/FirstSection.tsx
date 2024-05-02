@@ -21,18 +21,15 @@ export default () => {
 
       </div>
 
-
-
-
-
+      
 
       <div className="w-56 min-h-48  flex-grow">
         <Image src="/learneverywhere.png" width={300} height={200} alt="language show" className="w-auto h-auto " />
       </div>
       <div className="w-56 min-h-48 flex-grow">
-        <Image src="/learnboy1.png" width={300} height={200} alt="language show" className="w-auto h-auto" />
+        <Image src="/withlaptop.png" width={300} height={200} alt="language show" className="w-auto h-auto" />
       </div>
-      <div className="w-56 min-h-48 flex-grow">
+      <div className="w-56 min-h-48 flex-grow bg-orange-200">
         <Image src="/withlaptop.png" width={300} height={200} alt="language show" className="w-auto h-auto" />
       </div>
       <div className="w-56 min-h-48 bg-orange-200 flex-grow"></div>
