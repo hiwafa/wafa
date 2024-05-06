@@ -4,7 +4,7 @@ import { SlBubble } from "react-icons/sl";
 export default () => {
 
   return (
-    <div className=" m-10 flex flex-row gap-1 flex-wrap items-start content-start">
+    <div className="m-10 flex flex-row gap-1 flex-wrap items-start content-start">
 
 
       <div className="w-96 lg:basis-1/4 min-h-72 flex flex-col flex-grow text-white font-mono">
