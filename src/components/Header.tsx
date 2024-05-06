@@ -31,7 +31,8 @@ export default () => {
   }
 
   return (
-    <div className="flex justify-between h-16 shadow-md">
+    <div className="bg-white top-0 sticky">
+      <div className="flex justify-between h-16 shadow-md">
       <section className=" content-center md:ml-10 ml-5">
         <Image src="/logo.png" alt="logo" width={50} height={50} className="w-12 h-12 object-contain " />
       </section>
@@ -62,6 +63,7 @@ export default () => {
           <GiMoon size={25} />
         </a>
       </div>
+    </div>
     </div>
   );
 }
