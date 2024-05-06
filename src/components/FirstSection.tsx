@@ -7,7 +7,7 @@ export default () => {
     <div className=" m-10 flex flex-row gap-1 flex-wrap items-start content-start">
 
 
-      <div className="w-96 min-h-72 flex flex-col flex-grow text-white font-mono">
+      <div className="w-96 lg:basis-1/4 min-h-72 flex flex-col flex-grow text-white font-mono">
 
         <p className="font-bold text-4xl">
           New language, new opportunities, new you
@@ -23,18 +23,18 @@ export default () => {
 
       
 
-      <div className="w-56 min-h-48  flex-grow">
+      <div className="w-56 lg:basis-1/4 min-h-48  flex-grow">
         <Image src="/learneverywhere.png" width={300} height={200} alt="language show" className="w-auto h-auto " />
       </div>
-      <div className="w-56 min-h-48 flex-grow">
+      <div className="w-56 lg:basis-1/4 min-h-48 flex-grow">
         <Image src="/withlaptop.png" width={300} height={200} alt="language show" className="w-auto h-auto" />
       </div>
-      <div className="w-56 min-h-48 flex-grow bg-orange-200">
+      <div className="w-56 lg:basis-1/4 min-h-48 flex-grow bg-orange-200">
         <Image src="/withlaptop.png" width={300} height={200} alt="language show" className="w-auto h-auto" />
       </div>
-      <div className="w-56 min-h-48 bg-orange-200 flex-grow"></div>
-      <div className="w-56 min-h-48 bg-orange-200 flex-grow"></div>
-      <div className="w-56 min-h-48 bg-orange-200 flex-grow"></div>
+      <div className="w-56 lg:basis-1/4 min-h-48 bg-orange-200 flex-grow"></div>
+      <div className="w-56 lg:basis-1/4 min-h-48 bg-orange-200 flex-grow"></div>
+      <div className="w-56 lg:basis-1/4 min-h-48 bg-orange-200 flex-grow"></div>
 
     </div>
   );
